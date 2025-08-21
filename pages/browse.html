@@ -5,28 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="container">
         <header>
-            Snohomish Plant Database
+            <h1>Snohomish Plant Database</h1>
         </header>
         <nav>
-            <a>Home</a>
-            <a>Browse</a>
-            <a>Contact Us</a>
+            <a href="../index.html">Home</a>
+            <a href="browse.html">Browse</a>
+            <a href="contact.html">Contact Us</a>
             <form class="search">
-                <input type="text" id="sbar" name="sbar" value="Search not available">
-                <input type="submit" value="Search">   
+                <input type="text" id="sbar" name="sbar" value="Search not available" disabled>
+                <input type="submit" value="Search" disabled>   
             </form>
         </nav>
         <main class="content">
             <aside>
-
+                <h3>Filters*</h3>
+                <!-- form with checkboxes? -->
+                <p class="note">*Filters not yet implemented</p>
             </aside>
             <section>
-
+                <div class="card">
+                    <h3>[name]</h3>
+                    <img>
+                    <button type="button">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>[name]</h3>
+                    <img>
+                    <button type="button">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>[name]</h3>
+                    <img>
+                    <button type="button">Learn More</button>
+                </div>
             </section>
         </main>
         <footer>
