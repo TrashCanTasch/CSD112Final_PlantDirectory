@@ -1,0 +1,9 @@
+Mock Orange:
+“<a href="https://www.flickr.com/photos/12567713@N00/7283693140" title="Lewis's Mock-orange">Lewis's Mock-orange</a>” by <a href="https://www.flickr.com/photos/12567713@N00/">born1945</a>, <a href="https://creativecommons.org/licenses/by/2.0/deed.en" rel="license noopener noreferrer">CC BY 2.0</a>
+
+Yarrow:
+(wikimedia says it's CC BY but the source, iNaturalist, says it's public domain. what do)
+“<a href="https://www.inaturalist.org/photos/139228692" title="Common Yarrow">Common Yarrow</a>” by <a href="https://www.inaturalist.org/users/1164194">Allen Browne</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener noreferrer">CC0 1.0</a>
+
+Stream Violet:
+“<a href="https://commons.wikimedia.org/wiki/File:Violaglabella.jpg" title="Viola glabella">Viola glabella</a>” by <a href="https://commons.wikimedia.org/wiki/User:Stickpen">Stickpen</a>, <a href="https://creativecommons.org/public-domain/pdm/" rel="license noopener noreferrer">public domain</a>
