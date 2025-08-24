@@ -52,6 +52,7 @@ nav a {
 .search input:disabled {
     border: 0px;
     background-color: #A3E27B;
+    color: #2C5E38;
 }
 
 nav a:hover {
@@ -109,4 +110,45 @@ img {
 .attr {
     font-style: italic;
     font-size: 0.8em;
+}
+
+.cform .content {
+    margin-bottom: 2%;
+}
+
+.clabel {
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.rbcont {
+    width: 30%; /* change this to 50% in responsiveness */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sbcont {
+    text-align: right;
+}
+
+.cform input[type=submit] {
+    background-color: #2C5E38;
+    color: #FEFEC8;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+input[type=radio] {
+    accent-color: #A3E27B;
+    /* https://www.geeksforgeeks.org/css/how-to-change-the-color-of-radio-buttons-using-css/ */
+}
+
+.repline {
+    align-items: center;
+    margin-top: -2%;
+    margin-bottom: 0% !important;
 }
