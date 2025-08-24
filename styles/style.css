@@ -2,6 +2,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     background-image: url(../images/bgLeaf.svg);
+    background-size: 15%;
 }
 
 .container {
@@ -29,6 +30,8 @@ nav {
     justify-content: space-between;
     column-gap: 0;
     background-color: #2C5E38;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -66,12 +69,14 @@ nav input[type=submit] {
 aside {
     background-color: #FEFEC8;
     border-right: 1px solid #A38C6E;
-    padding: 2%;
+    padding: 10%;
+    padding-top: 5%;
 }
 
 section {
     background-color: #FEFEC8;
-    padding: 2%;
+    padding: 5%;
+    padding-top: 2%;
 }
 
 footer {
@@ -91,7 +96,14 @@ footer {
     color: #FEFEC8;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
     border: 0px;
+}
+
+aside .btn {
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .btn:hover {
@@ -107,7 +119,7 @@ img {
     width: 100%;
 }
 
-.attr {
+.attr, .note {
     font-style: italic;
     font-size: 0.8em;
 }
@@ -151,4 +163,43 @@ input[type=radio] {
     align-items: center;
     margin-top: -2%;
     margin-bottom: 0% !important;
+}
+
+.toc {
+    list-style: none;
+    margin-left: -20%;
+}
+
+.listHead {
+    font-weight: bold;
+}
+
+.indent {
+    margin-left: -10%;
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+li a {
+    color: #000;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.stick {
+    position: sticky;
+    top: 50px;
+}
+
+.card {
+    margin-bottom: 5%;
+}
+
+.card h3 {
+    margin-bottom: 1%;
 }
